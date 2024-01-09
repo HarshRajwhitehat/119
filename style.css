@@ -1,0 +1,33 @@
+body
+{
+background-color: rgb(92, 236, 255);
+}
+h1 {
+    background-color: burlywood;
+    color: whitesmoke;
+}
+#show_sketch
+{
+    float:right;
+}
+canvas
+{
+border:5px solid black ;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 5s;
+margin-top: 50px;
+animation-iteration-count:infinite ;
+background-color: whitesmoke;
+
+}
+@keyframes example {
+from{box-shadow: 1px 1px 38px grey;}
+to{box-shadow: 1px 1px 38px whitesmoke;}    
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
